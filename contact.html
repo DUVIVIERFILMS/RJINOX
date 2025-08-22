@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Entre em contato com a RJ Inox para solicitar orçamentos, tirar dúvidas ou desenvolver projetos personalizados em aço inox."
+    />
+    <title>Contato – RJ Inox</title>
+    <link rel="icon" type="image/png" href="assets/hero.png" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <a href="#main" class="skip-link">Pular para o conteúdo</a>
+    <header class="site-header">
+      <div class="container">
+        <a href="index.html" class="logo" aria-label="Início">
+          RJ<span class="accent">Inox</span>
+        </a>
+        <button
+          class="nav-toggle"
+          aria-label="Abrir menu de navegação"
+          aria-expanded="false"
+          aria-controls="primary-navigation"
+        >
+          <span class="hamburger"></span>
+        </button>
+        <nav id="primary-navigation" class="primary-nav" role="navigation" aria-label="Navegação principal">
+          <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="about.html">Sobre</a></li>
+            <li><a href="contact.html" class="active">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main id="main" class="contact-page">
+      <section class="contact-intro">
+        <div class="container">
+          <h1>Fale Conosco</h1>
+          <p>
+            Estamos à disposição para esclarecer dúvidas, receber sugestões e
+            elaborar orçamentos personalizados. Utilize o formulário abaixo ou,
+            se preferir, entre em contato diretamente pelos nossos canais de
+            atendimento.
+          </p>
+        </div>
+      </section>
+      <section class="contact-details">
+        <div class="container">
+          <div class="contact-info">
+            <h2>Informações</h2>
+            <ul>
+              <li><strong>Endereço:</strong> Rua Fictícia, 123 – Rio de Janeiro/RJ</li>
+              <li><strong>Telefone:</strong> (21) 0000-0000</li>
+              <li><strong>E-mail:</strong> <a href="mailto:contato@rjinox.com">contato@rjinox.com</a></li>
+            </ul>
+          </div>
+          <div class="contact-form-wrapper">
+            <h2>Envie sua mensagem</h2>
+            <form id="contact-form" novalidate>
+              <div class="form-group">
+                <label for="name">Nome</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  required
+                  aria-required="true"
+                />
+              </div>
+              <div class="form-group">
+                <label for="email">E-mail</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  required
+                  aria-required="true"
+                />
+              </div>
+              <div class="form-group">
+                <label for="message">Mensagem</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  required
+                  aria-required="true"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn primary-btn">Enviar</button>
+              <p class="form-feedback" role="alert" aria-live="polite"></p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <p>© <span id="year"></span> RJ Inox. Todos os direitos reservados.</p>
+        <ul class="social-links">
+          <li>
+            <a
+              href="https://www.facebook.com"
+              target="_blank"
+              rel="noopener"
+              aria-label="Facebook"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 320 512"
+                class="icon"
+                aria-hidden="true"
+              >
+                <path
+                  fill="currentColor"
+                  d="M279.14 288l14.22-92.66h-88.91V137.54c0-25.35 12.42-50.06 52.24-50.06H293V6.26S259.5 0 225.36 0C141.09 0 89.53 54.42 89.53 153.12v68.22H0v92.66h89.53V512h107.63V288z"
+                />
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com"
+              target="_blank"
+              rel="noopener"
+              aria-label="Instagram"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 512"
+                class="icon"
+                aria-hidden="true"
+              >
+                <path
+                  fill="currentColor"
+                  d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9 114.9-51.3 114.9-114.9S287.7 141 224.1 141zm0 189.6c-41.2 0-74.7-33.5-74.7-74.7 0-41.2 33.5-74.7 74.7-74.7 41.2 0 74.7 33.5 74.7 74.7 0 41.2-33.5 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.9-26.9 26.9s-26.9-12-26.9-26.9 12-26.9 26.9-26.9 26.9 12 26.9 26.9zm76.1 27.2c-1.7-35.7-9.9-67.1-36.2-93.4S357.6 48 321.9 46.3c-35.8-2.1-143.6-2.1-179.4 0-35.7 1.7-67.1 9.9-93.4 36.2S48 154.4 46.3 190.1c-2.1 35.8-2.1 143.6 0 179.4 1.7 35.7 9.9 67.1 36.2 93.4s57.6 34.5 93.4 36.2c35.8 2.1 143.6 2.1 179.4 0 35.7-1.7 67.1-9.9 93.4-36.2s34.5-57.6 36.2-93.4c2.1-35.8 2.1-143.6 0-179.4zM398.8 388c-7.8 19.5-22.9 34.6-42.4 42.4-29.3 11.7-98.8 9-132.4 9s-103.1 2.6-132.4-9c-19.5-7.8-34.6-22.9-42.4-42.4-11.7-29.3-9-98.8-9-132.4s-2.6-103.1 9-132.4c7.8-19.5 22.9-34.6 42.4-42.4 29.3-11.7 98.8-9 132.4-9s103.1-2.6 132.4 9c19.5 7.8 34.6 22.9 42.4 42.4 11.7 29.3 9 98.8 9 132.4s2.7 103.1-9 132.4z"
+                />
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com"
+              target="_blank"
+              rel="noopener"
+              aria-label="LinkedIn"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 512"
+                class="icon"
+                aria-hidden="true"
+              >
+                <path
+                  fill="currentColor"
+                  d="M100.28 448H7.4V148.9h92.88zm-46.44-344A53.53 53.53 0 1 1 7.4 157.44 53.53 53.53 0 0 1 53.84 104zm394.23 344h-92.68V302.4c0-34.7-.7-79.4-48.44-79.4-48.44 0-55.84 37.8-55.84 76.9v148.1h-92.68V148.9h88.96v40.8h1.28c12.4-23.4 42.56-48.44 87.6-48.44 93.72 0 111.08 61.7 111.08 141.9z"
+                />
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>
